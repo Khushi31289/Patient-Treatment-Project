@@ -1,0 +1,5 @@
+Classic Mailbox | Software Engineer 2016
+● Created a mailbox system using Java, JSP, Servlets, Javascript, Jquery & MongoDB, Apache Tomcat 7.0.
+Performed standard CRUD operations to manipulate a JSON data-set of around 6000 entries ensuring data integrity.
+Managed & preserved the emails, enabled customized searching through the emails via searchable fields and sorted
+the emails by date/time.
