@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login page</title>
+<script>
+	function initialize(){
+		alert('Login Successful\nInitializing DB with 10 tupples in each tables\n Click OK to proceed');
+	} 
+</script>
+
+</head>
+<body>
+	<h1>Login Page</h1>
+	<form action="mainLoader" method="post">
+		Enter Database Name: <input type="text" name="txtunm" value="sampledb">
+		Enter Password: <input type="password" name="txtpassword"
+			value="pass1234"> <input type="submit" value="Initialize DB"
+			name="btnLogin" onclick="setTimeout(initialize, 100);">
+	</form>
+</body>
+</html>
