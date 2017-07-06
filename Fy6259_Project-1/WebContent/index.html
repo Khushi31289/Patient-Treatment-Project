@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WEB PROJECT-1 GAME - Fy6259</title>
+        <link rel="stylesheet" href="gameStyle.css" />
+    </head>
+     <script src='jquery-1.11.3.js'></script>
+     <script src='myScript.js'></script>
+    <body onkeypress="processTheKey(event);" >
+    	<div>
+    		<div><button id="btnStart" name= "btnStart" onclick="startGame();" class="btnClass transClass">Start Game</button>
+    		</div><br>
+    		<label class="fontClass">Difficulty Level: </label>
+    		
+    			<select id="selLevel" name ="selLevel" onchange="changeLevelOfDiffculty();">
+    				<option value="1"  selected="selected">Beginner</option>
+    				<option value="2">Intermediate</option>
+    				<option value="3">Expert</option>
+    			</select>
+    		
+    		<div class="fontClass" id='divScore' name='divScore'>Score: <span id="lblScore" name="lblScore">0</span></div>
+    	</div>
+		<br>
+        <canvas id="myCanvas" name= "myCanvas" height="600" width="450" ></canvas>
+    </body>
+</html>
